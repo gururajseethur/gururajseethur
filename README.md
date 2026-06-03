@@ -1,43 +1,51 @@
 ### Hi, I'm Gururaj
 
+<p>
+<a href="https://gururajseethur.in"><img src="https://img.shields.io/badge/portfolio-gururajseethur.in-0a7" alt="portfolio" /></a>
+<img src="https://img.shields.io/badge/Bengaluru-India-FF9933" alt="location" />
+<img src="https://img.shields.io/badge/CEH%20v12-certified-blue" alt="ceh" />
+<img src="https://img.shields.io/badge/focus-Local--first%20AI%20Security-success" alt="focus" />
+</p>
+
 Ethical hacker, AI/ML builder, and filmmaker based in **Bengaluru, India**.
 I build local-first AI security tools — the kind that run on your machine, not in someone else's cloud.
 
-CEH v12 · Currently pursuing a Master-Diploma at BIA · Marketing background turned engineer.
+> **Working thesis:** every team that handles sensitive data will, within five years, want to run its own LLM stack with its own telemetry. The plumbing for that doesn't exist yet — most of what I ship is some piece of that plumbing.
 
 ---
 
-#### What I'm building
+#### Currently shipping
 
-| Project | What it does |
-|---|---|
-| **[aicp](https://github.com/gururajseethur/aicp)** | Local AI SOC. Wazuh alerts → context builder → Ollama → structured assessments. No cloud, no API keys, no data leaving your network. |
-| **[gururajseethur-infra](https://github.com/gururajseethur/gururajseethur-infra)** | Self-hosted infra stack — Cloudflare Tunnel, Traefik, Grafana, Prometheus, Ollama proxy. Three-phase Docker Compose rollout with full ops docs. |
-| **[SentinelMesh](https://github.com/gururajseethur/SentinelMesh_Zero-Trust-CTI-Gateway)** | Zero-trust CTI gateway — threat intelligence with policy enforcement at the edge. |
-| **[Hexavault](https://github.com/gururajseethur/Hexavault)** | Local AI infrastructure control panel — manage Ollama models, monitor services, route requests to the right local LLM. |
-| **[Hexamind_Lets_Secure](https://github.com/gururajseethur/Hexamind_Lets_Secure)** | Security tooling experiments. |
-
----
-
-#### Stack I work in
-
-Python · FastAPI · React · Docker · Ollama · Cloudflare · Traefik · Grafana · MITRE ATT&CK · Wazuh
+| Project | What it is | Stack |
+|---|---|---|
+| **[aicp](https://github.com/gururajseethur/aicp)** | Local AI SOC. Wazuh → Ollama → structured assessments, all on your laptop. No cloud, no API keys. | FastAPI · SQLite · Ollama · React |
+| **[gururajseethur-infra](https://github.com/gururajseethur/gururajseethur-infra)** | One-command self-hosted AI infrastructure — Cloudflare Tunnel, Traefik, Grafana, Prometheus, Ollama proxy with auto-metrics. | Docker Compose · Traefik · Prometheus |
+| **[SentinelMesh](https://github.com/gururajseethur/SentinelMesh_Zero-Trust-CTI-Gateway)** | Zero-trust threat-intel gateway. Every request verified against a live JWKS endpoint before it reaches MISP / OpenCTI / TheHive. No bypass mode. | Node · Keycloak · MISP · React · Vite |
+| **[Hexavault](https://github.com/gururajseethur/Hexavault)** | Local AI infrastructure control panel — manage Ollama models, monitor services, route requests to the right LLM. | React · Tailwind · Ollama |
 
 ---
 
-#### What I'm into right now
+#### Toolbox
 
-- Wiring local LLMs into real security workflows (alert triage, log analysis, IOC enrichment)
-- Self-hosting everything I can — infrastructure I actually control
-- Working through TryHackMe and BIA coursework — [progress log](https://github.com/gururajseethur/Tryhackme-Gururajseethur)
-- Side of filmmaking and marketing — the non-engineering brain
+`Python` `FastAPI` `React` `Vite` `Docker Compose` `Ollama` `Traefik` `Cloudflare Tunnel` `Grafana` `Prometheus` `MITRE ATT&CK` `Wazuh` `Keycloak` `MISP`
+
+---
+
+#### What I'm into
+
+- Wiring **local LLMs** into real security workflows (alert triage, log analysis, IOC enrichment)
+- **Self-hosting everything I can** — infrastructure I actually own
+- **Threat-intel sharing** with proper access control (the SentinelMesh thesis)
+- Working through TryHackMe + BIA Master-Diploma — [progress log](https://github.com/gururajseethur/Tryhackme-Gururajseethur)
+- A side of **filmmaking and marketing** — the non-engineering brain
 
 ---
 
 #### Reach me
 
-- Portfolio — **[gururajseethur.in](https://gururajseethur.in)**
-- Bengaluru-based, open to interesting security/AI conversations
+- **Portfolio** — [gururajseethur.in](https://gururajseethur.in)
+- **Location** — Bengaluru, open to interesting security/AI conversations
+- DM me on GitHub for collabs, contract security work, or a coffee in Indiranagar
 
 ---
 
