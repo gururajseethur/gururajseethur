@@ -22,6 +22,7 @@ I build local-first AI security tools — the kind that run on your machine, not
 | **[gururajseethur-infra](https://github.com/gururajseethur/gururajseethur-infra)** | One-command self-hosted AI infrastructure — Cloudflare Tunnel, Traefik, Grafana, Prometheus, Ollama proxy with auto-metrics. | Docker Compose · Traefik · Prometheus |
 | **[SentinelMesh](https://github.com/gururajseethur/SentinelMesh_Zero-Trust-CTI-Gateway)** | Zero-trust threat-intel gateway. Every request verified against a live JWKS endpoint before it reaches MISP / OpenCTI / TheHive. No bypass mode. | Node · Keycloak · MISP · React · Vite |
 | **[Hexavault](https://github.com/gururajseethur/Hexavault)** | Local AI infrastructure control panel — manage Ollama models, monitor services, route requests to the right LLM. | React · Tailwind · Ollama |
+| **[smb-cybersecurity-framework](https://github.com/gururajseethur/smb-cybersecurity-framework)** | Defense-in-depth security baseline for a 28-person SMB on **CIS Controls v8 (IG1)**. Live lab evidence on every control: 96.75% SYN-flood drop, Suricata + Fail2Ban + ClamAV validated. | iptables · Suricata · Fail2Ban · ClamAV · nmap · Lynis |
 
 ---
 
