@@ -38,3 +38,10 @@ Python · FastAPI · React · Docker · Ollama · Cloudflare · Traefik · Grafa
 
 - Portfolio — **[gururajseethur.in](https://gururajseethur.in)**
 - Bengaluru-based, open to interesting security/AI conversations
+
+---
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=gururajseethur&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&theme=tokyonight" height="160" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gururajseethur&hide_border=true&layout=compact&theme=tokyonight&langs_count=8" height="160" />
+</p>
