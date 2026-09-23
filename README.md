@@ -18,9 +18,10 @@ I build local-first AI security tools — the kind that run on your machine, not
 
 | Project | What it is | Stack |
 |---|---|---|
-| **[aicp](https://github.com/gururajseethur/aicp)** | Local AI SOC. Wazuh → Ollama → structured assessments, all on your laptop. No cloud, no API keys. | FastAPI · SQLite · Ollama · React |
-| **[gururajseethur-infra](https://github.com/gururajseethur/gururajseethur-infra)** | One-command self-hosted AI infrastructure — Cloudflare Tunnel, Traefik, Grafana, Prometheus, Ollama proxy with auto-metrics. | Docker Compose · Traefik · Prometheus |
-| **[SentinelMesh](https://github.com/gururajseethur/SentinelMesh_Zero-Trust-CTI-Gateway)** | Zero-trust threat-intel gateway. Every request verified against a live JWKS endpoint before it reaches MISP / OpenCTI / TheHive. No bypass mode. | Node · Keycloak · MISP · React · Vite |
+| **[security-automation-platform](https://github.com/gururajseethur/security-automation-platform)** | Cyber Constellation — 65 orchestrated security workflows across SOC, GRC, IAM, vulnerability management, DFIR, DevSecOps and cloud, behind a FastAPI control plane with JWT auth, HMAC-verified webhooks and tenant isolation. | FastAPI · PostgreSQL · n8n · Docker · Grafana |
+| **[ai-soc-control-plane](https://github.com/gururajseethur/ai-soc-control-plane)** | Local AI SOC. Wazuh → Ollama → structured assessments, all on your laptop. No cloud, no API keys. | FastAPI · SQLite · Ollama · React |
+| **[self-hosted-ai-infrastructure](https://github.com/gururajseethur/self-hosted-ai-infrastructure)** | One-command self-hosted AI infrastructure — Cloudflare Tunnel, Traefik, Grafana, Prometheus, Ollama proxy with auto-metrics. | Docker Compose · Traefik · Prometheus |
+| **[sentinelmesh-cti-gateway](https://github.com/gururajseethur/sentinelmesh-cti-gateway)** | Zero-trust threat-intel gateway. Every request verified against a live JWKS endpoint before it reaches MISP / OpenCTI / TheHive. No bypass mode. | Node · Keycloak · MISP · React · Vite |
 | **[smb-cybersecurity-framework](https://github.com/gururajseethur/smb-cybersecurity-framework)** | Defense-in-depth security baseline for a 28-person SMB on **CIS Controls v8 (IG1)**. Live lab evidence on every control: 96.75% SYN-flood drop, Suricata + Fail2Ban + ClamAV validated. | iptables · Suricata · Fail2Ban · ClamAV · nmap · Lynis |
 
 ---
@@ -29,7 +30,7 @@ I build local-first AI security tools — the kind that run on your machine, not
 
 Four security projects completed and approved under a six-month on-the-job training programme with **Spinnaker Analytics**, delivered alongside the Master-Diploma in Cyber Security & Ethical Hacking at the **Boston Institute of Analytics**.
 
-- **Threat intelligence platform security** — shipped as [SentinelMesh](https://github.com/gururajseethur/SentinelMesh_Zero-Trust-CTI-Gateway)
+- **Threat intelligence platform security** — shipped as [sentinelmesh-cti-gateway](https://github.com/gururajseethur/sentinelmesh-cti-gateway)
 - **Cybersecurity framework for small businesses** — shipped as [smb-cybersecurity-framework](https://github.com/gururajseethur/smb-cybersecurity-framework)
 - **In-depth wireless network analysis** — Wi-Fi and Bluetooth assessment for a financial services scenario. WPA2-Enterprise with FreeRADIUS, VLAN segmentation and ACLs, Snort/Suricata IDS, with lab evidence captured using aircrack-ng and Wireshark in an isolated environment.
 - **Secure network architecture for a large enterprise** — zero-trust and micro-segmentation design, with information security policies mapped to RBI guidelines, the DPDP Act 2023, PCI DSS v4.0 and ISO/IEC 27001, plus incident response aligned to NIST SP 800-61.
